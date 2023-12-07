@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:chatnode/presentation/filesend.dart';
 import 'package:chatnode/presentation/home.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
             shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
       ),
-      home: HomePage(),
+      home: FileSend(),
     );
   }
 }
